@@ -1,0 +1,27 @@
+.quiz-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: aquamarine;
+    height: 300px;
+}
+.opcoes-grid {
+    padding: 50px 50px;
+}
+.feedback-oculto {
+    padding: 16px 12px;
+    max-width: min-content;
+}
+.correto {
+    margin-top: 16px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.errado {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
