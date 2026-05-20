@@ -1,27 +1,47 @@
 .quiz-box {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 12px;
-    border-radius: 10px;
-    background: aquamarine;
-    height: 300px;
+  background: rgb(108, 108, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
 }
 .opcoes-grid {
-    padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: aquamarine;
+  width: 400px;
+  height: 80px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
-.feedback-oculto {
-    padding: 16px 12px;
-    max-width: min-content;
+.pergunta {
+   width: 400px;
+}
+.opcao-btn {
+   font-size: medium;
+   font-style: oblique;
+}
+.opcao-btn:hover {
+  font-size: large;
+  color: rgb(0, 123, 82);
+}
+button {
+  background: antiquewhite;
+}
+button:hover {
+  background: rgb(156, 255, 237);
 }
 .correto {
-    margin-top: 16px;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: bold;
+  background: greenyellow;
 }
 .errado {
-  margin-top: 16px;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: bold;
+  background: rgb(255, 28, 28);
+}
+.feedback-oculto {
+  background: lavender;
+  margin: 10px;
+  border-radius: 5px;
 }
